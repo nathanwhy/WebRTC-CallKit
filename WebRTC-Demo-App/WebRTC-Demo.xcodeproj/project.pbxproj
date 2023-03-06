@@ -19,7 +19,6 @@
 		3114839429343D6A006F2EE8 /* Ringtone.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3114839329343D6A006F2EE8 /* Ringtone.aif */; };
 		31431F8C29A48E1B00F5DBD8 /* CallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31431F8B29A48E1B00F5DBD8 /* CallController.swift */; };
 		31431F8E29A4947700F5DBD8 /* AudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31431F8D29A4947700F5DBD8 /* AudioSession.swift */; };
-		31F6392F29654B3100057E52 /* AudioSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F6392E29654B3100057E52 /* AudioSessionExtension.swift */; };
 		79177C9720B0DE7A00BCD399 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79177C9620B0DE7A00BCD399 /* WebRTCClient.swift */; };
 		79177C9920B0DF2700BCD399 /* SignalingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79177C9820B0DF2700BCD399 /* SignalingClient.swift */; };
 		79177CA620B1F76E00BCD399 /* RTCStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79177CA520B1F76E00BCD399 /* RTCStates.swift */; };
@@ -48,7 +47,6 @@
 		3114839329343D6A006F2EE8 /* Ringtone.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ringtone.aif; sourceTree = "<group>"; };
 		31431F8B29A48E1B00F5DBD8 /* CallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallController.swift; sourceTree = "<group>"; };
 		31431F8D29A4947700F5DBD8 /* AudioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSession.swift; sourceTree = "<group>"; };
-		31F6392E29654B3100057E52 /* AudioSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSessionExtension.swift; sourceTree = "<group>"; };
 		79177C9620B0DE7A00BCD399 /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 		79177C9820B0DF2700BCD399 /* SignalingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalingClient.swift; sourceTree = "<group>"; };
 		79177CA520B1F76E00BCD399 /* RTCStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCStates.swift; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				79177CA420B1C39700BCD399 /* Extensions */,
 				79262EE620B0D6F600D576C1 /* AppDelegate.swift */,
 				792198A122011A450051F03F /* Config.swift */,
-				31F6392E29654B3100057E52 /* AudioSessionExtension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -287,7 +284,6 @@
 				792198A222011A450051F03F /* Config.swift in Sources */,
 				31431F8C29A48E1B00F5DBD8 /* CallController.swift in Sources */,
 				79177CA820B2276400BCD399 /* VideoViewController.swift in Sources */,
-				31F6392F29654B3100057E52 /* AudioSessionExtension.swift in Sources */,
 				3114839129343AF9006F2EE8 /* URL+StartCallConvertible.swift in Sources */,
 				3114838929343AD3006F2EE8 /* SpeakerboxCall.swift in Sources */,
 				79262EE720B0D6F600D576C1 /* AppDelegate.swift in Sources */,

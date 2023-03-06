@@ -1,23 +1,12 @@
 # WebRTC-iOS
-A simple native WebRTC demo iOS app using swift. 
-
-![Screenshots](images/WebRTC.png)
-
-## Disclaimer
-This demo app's purpose is to demonstrate the bare minimum required to establish peer to peer connection with WebRTC. **This is not a production ready code!** In order to have a production VoIP app you will need to have a real signaling server (not a simple broadcast server like in this example), deploy your own Turn server(s) and probably integrate CallKit and push notifications.
- 
+A WebRTC and CallKit demo application using Swift. It is based on [WebRTC-iOS](https://github.com/stasel/WebRTC-iOS). It does not claim to be complete or error safe in any way. Only the necessary parts of these both technologies are implemented to show a simple call demo.
 
 ## Requirements
-1. Xcode 12.1 or later
+1. Xcode 13.0 or later
 2. iOS 12 or later
 3. Node.js + npm (For NodeJS Signaling server)  
 **- OR -**  
 macOS 10.15 (For Swift signaling server)
-
-Legacy xcode support:
-
-* [Xcode 10](https://github.com/stasel/WebRTC-iOS/tree/xcode-10) branch
-* [Xcode 11](https://github.com/stasel/WebRTC-iOS/tree/xcode-11) branch
 
 ## Setup instructions
 1. Start the signaling server (Either NodeJS or Swift)
